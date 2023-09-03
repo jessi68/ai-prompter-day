@@ -1,0 +1,12 @@
+.column-container-prompt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.template {
+    width: 137px;
+    height: 137px;
+    border-radius: 16px;
+    background: #D9D9D9;
+}

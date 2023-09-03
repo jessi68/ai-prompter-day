@@ -1,0 +1,43 @@
+* {background-color: 4D4D4F;
+   color: white}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tab {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.tab-element {
+    border-bottom: 1px solid white;
+}
+
+.search-bar {
+    margin-top: 47px;
+    background-color: 323232;
+    width: 689px;
+    height: 51px;
+    border-radius: 12px;
+    border: 1px solid #5C5C5C;
+}
+
+.row-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.template-container {
+    display: grid;
+    margin-top: 50px;
+    row-gap: 0.43em;
+    column-gap: 4.3em;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+}
+
